@@ -6,13 +6,10 @@ This page contains a preview of all my projects, click the name of the project t
 
 ## [***New Folder***](NewFolder#) ← Click here for more info!
 
-Developed: *2024 november - 2025 January*
-
-Engine: Unity
-
-Genré: Story, Mystery, Puzzle, Horror
-
-Team: 3 Programmers and 4 Artists
+Developed: *2024 november - 2025 January*   
+Engine: Unity   
+Genré: Story, Mystery, Puzzle, Horror   
+Team: 3 Programmers and 4 Artists   
 
 <table>
   <tr>

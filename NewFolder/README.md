@@ -4,7 +4,7 @@
 
 [Itch Page](https://yrgo-game-creator.itch.io/new-folder)  
 
-Worked as **Programmer**
+Worked as **Programmer**  
 *2024 november - 2025 January*
 
 ## Game Design
