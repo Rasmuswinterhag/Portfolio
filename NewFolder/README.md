@@ -11,7 +11,7 @@ Worked as **Programmer**
 
 <table>
   <tr>
-    <td ><img src="Images\DAAC-GIFs-003.gif"/></td>
-     <td ><img src="Images\DAAC-GIFs-004.gif"/></td>
+    <td ><img src="Images\Mediaplayer"/></td>
+     <td ><img src="Images\RightClick"/></td>
   </tr>
 </table>
