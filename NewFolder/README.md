@@ -15,5 +15,3 @@ Worked as **Programmer**
      <td ><img src="Images\RightClick.png"/></td>
   </tr>
 </table>
-
----
