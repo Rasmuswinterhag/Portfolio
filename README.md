@@ -25,7 +25,7 @@ Team: 3 Programmers and 4 Artists
 
 ## [***Boin Boing***](NewFolder#) ← Click here for more info!
 
-Developed: *2024 october, 02:00 - 02:00*     
+Developed: *2024 october, 02:00 - 02:00 (Made in one hour)*     
 Engine: Unity   
 Genré: Physics simulator, Clicker   
 Team: Me    
