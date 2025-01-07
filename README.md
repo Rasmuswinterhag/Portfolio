@@ -16,8 +16,8 @@ Team: 3 Programmers and 4 Artists
 
 <table>
   <tr>
-    <td width="50%"><img src="NewFolder\Images\Mediaplayer.png" /></td>
-    <td width="50%"><img src="NewFolder\Images\RightClick.png" /></td>
+    <td><img src="NewFolder\Images\Mediaplayer.png" /></td>
+    <td><img src="NewFolder\Images\RightClick.png" /></td>
   </tr>
 </table>
 
