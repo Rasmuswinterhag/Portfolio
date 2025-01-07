@@ -11,7 +11,9 @@ Worked as **Programmer**
 
 <table>
   <tr>
-    <td ><img src="Images\Mediaplayer"/></td>
-     <td ><img src="Images\RightClick"/></td>
+    <td ><img src="Images\Mediaplayer.png"/></td>
+     <td ><img src="Images\RightClick.png"/></td>
   </tr>
 </table>
+
+---
