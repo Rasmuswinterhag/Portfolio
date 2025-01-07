@@ -1,6 +1,6 @@
 # *New Folder*
 
-<img src="Images\DAAC-Logo-Vector_Logo.png" width="50%"/>
+<img src="Images\Banner.png" width="100%"/>
 
 [Itch Page](https://yrgo-game-creator.itch.io/new-folder)  
 
