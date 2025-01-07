@@ -6,8 +6,7 @@ This page contains a preview of all my projects, click the name of the project t
 
 ## [***New Folder***](NewFolder#) ← Click here for more info!
 
-Developed: *2024 november - 2025 January*
-*2024 october, 02:00 - 02:00*      
+Developed: *2024 november - 2025 January*     
 Engine: Unity   
 Genré: Story, Mystery, Puzzle, Horror   
 Team: 3 Programmers and 4 Artists   
@@ -23,7 +22,7 @@ Team: 3 Programmers and 4 Artists
 
 # Game Jams
 
-## [***Boin Boing***](NewFolder#) ← Click here for more info!
+## [***Boin Boing***](BoinBoing#) ← Click here for more info!
 
 Developed: *2024 october, 02:00 - 02:00 (Made in one hour)*     
 Engine: Unity   
