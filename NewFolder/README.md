@@ -13,7 +13,7 @@ I worked on a little bit of everything but some highlights are:
 - Animated images -  I modified the normal Image prefab to add animations when you first open them, but not again after  
 - Pulling keys from images - I modified the image prefab to make you able to pull keys from it
 
-## Game Design
+## Screenshots
 
 <table>
   <tr>
