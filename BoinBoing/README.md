@@ -1,6 +1,6 @@
 # *Boin Boing*
 
-<img src="Images\Banner.png" width="100%"/>
+<img src="Images\Banner.png" width="50%"/>
 
 [Itch Page](https://zuperzlime.itch.io/boin-boing)  
 
@@ -17,7 +17,7 @@ I made everything
 4. To gamify it more the balls get destroyed when touching eachother.
 5. I have time, The balls can now take three hits
 
-## Game Design
+## Screenshots
 
 <table>
   <tr>
