@@ -9,7 +9,7 @@ Worked as **Programmer**
 
 I worked on a little bit of everything but some highlights are: 
 - The mediaplayer - I built almost the whole thing  
-- The Glitch system - Built the whole thing, built to be easy to use for the developer
+- The Glitch system - Built the whole thing, I built it to be easy to use for the developers
 - Animated images -  I modified the normal Image prefab to add animations when you first open them, but not again after  
 - Pulling keys from images - I modified the image prefab to make you able to pull keys from it
 

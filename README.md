@@ -27,7 +27,7 @@ Team: 3 Programmers and 4 Artists
 Developed: *2024 October, 02:00 - 02:00 (Made in one hour)*     
 Engine: Unity   
 Genré: Physics simulator, Clicker   
-Team: 3 Programmers and 3 Artists   
+Team: Me
 
 <table>
   <tr>
@@ -38,14 +38,17 @@ Team: 3 Programmers and 3 Artists
 
 ## [***Water Drop Racing***](WaterDropRacing#) ← Click here for more info!
 
-Developed: *2025 January, 17 - 19* 
+Developed: *2025 January, 17 - 19*  
 Engine: Unity   
-Genré: Nostalgic Racing Game
-Team: Me
+Genré: Nostalgic Racing Game  
+Team: 3 Programmers and 3 Artists
 
 <table>
   <tr>
-    <td><img src="WaterDropRacing\Images\Screenshot1.png" /></td>
-    <td><img src="WaterDropRacing\Images\Screenshot2.png" /></td>
+    <td><img src="WaterDropRacing\Images\MainMenu.png" /></td>
+    <td><img src="WaterDropRacing\Images\Gameplay.png" /></td>
+  </tr>
+  <tr>
+    <td><img src="WaterDropRacing\Images\Finished.png" /></td>
   </tr>
 </table>
