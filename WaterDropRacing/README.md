@@ -10,7 +10,7 @@ Won the ***Best Game Design*** award in the [*Global Game Jam Gothemburg*](https
 
 I worked on most things but some highlights are:
 - The collectible water drops, They combine into a bigger drop when they touch.
-- The camera tracking the palyer and looking ahead of the movement.
+- The camera tracking the player and looking ahead of the movement.
 - The camera size being dynamic with the size of the player.
 - The racing meters showing where all racers are on the window.
 
