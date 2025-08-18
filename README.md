@@ -1,12 +1,12 @@
 # Rasmus Winterhag Portfolio
 
-This page contains a preview of all my projects, click the name of the project to see my contributions!
+This page contains a preview of all my notable projects, click the name of the project to see my contributions!
 
 # Games developed at Yrgo
 
 ## [***New Folder***](NewFolder#) ← Click here for more info!
 
-Developed: *2024 November - 2025 Juni*  
+Developed: *November 2024 - Juni 2025*  
 Engine: Unity   
 Genré: Story, Mystery, Puzzle, Horror   
 Team: 3 Programmers and 4 Artists   
@@ -18,13 +18,28 @@ Team: 3 Programmers and 4 Artists
   </tr>
 </table>
 
+## [***Anker***](Anker#) ← Click here for more info!
+
+Developed: *Summer 2023, January 2025 - february 2025*  
+Engine: Unity   
+Genré: Idle, Mobile   
+Team: Me   
+
+<table>
+  <tr>
+    <td><img src="Anker\Images\Pool.png" /></td>
+    <td><img src="Anker\Images\Shop.png" /></td>
+    <td><img src="Anker\Images\VisitOthers.png" /></td>
+  </tr>
+</table>
+
 ---
 
 # Game Jams
 
 ## [***Boin Boing***](BoinBoing#) ← Click here for more info!
 
-Developed: *2024 October, 02:00 - 02:00 (Made in one hour)*     
+Developed: *October 2024, 02:00 - 02:00 (Made in one hour)*     
 Engine: Unity   
 Genré: Physics simulator, Clicker   
 Team: Me
@@ -38,7 +53,7 @@ Team: Me
 
 ## [***Water Drop Racing***](WaterDropRacing#) ← Click here for more info!
 
-Developed: *2025 January, 17 - 19*  
+Developed: *January 2025, 17th - 19th*  
 Engine: Unity   
 Genré: Nostalgic Racing Game  
 Team: 3 Programmers and 3 Artists
