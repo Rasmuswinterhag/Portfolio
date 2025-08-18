@@ -6,7 +6,7 @@ This page contains a preview of all my projects, click the name of the project t
 
 ## [***New Folder***](NewFolder#) ← Click here for more info!
 
-Developed: *2024 November - 2025 January* (Still WIP)
+Developed: *2024 November - 2025 Juni*  
 Engine: Unity   
 Genré: Story, Mystery, Puzzle, Horror   
 Team: 3 Programmers and 4 Artists   
