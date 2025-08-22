@@ -28,7 +28,11 @@ Team: Me
 <table>
   <tr>
     <td><img src="Anker\Images\Pool.png" /></td>
+  </tr>
+  <tr>
     <td><img src="Anker\Images\Shop.png" /></td>
+  </tr>
+  <tr>
     <td><img src="Anker\Images\VisitOthers.png" /></td>
   </tr>
 </table>
