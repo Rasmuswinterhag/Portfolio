@@ -43,8 +43,6 @@ Team: 3 Programmers and 4 Artists
 <table>
   <tr>
     <td><img src="Regauge\Images\SpinnyPlate.gif" /></td>
-  </tr>
-  <tr>
     <td><img src="Regauge\Images\4PlayerGameplay.gif" /></td>
   </tr>
 </table>
