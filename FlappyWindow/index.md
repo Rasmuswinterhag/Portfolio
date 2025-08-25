@@ -22,7 +22,6 @@ SDL_SetWindowTitle(scoreWindow, std::format("Score: {}", score).c_str());
 ```
 It formats the text and then converts the formatted string into characters since thats what the function needs.
 
-
 ## Screenshots
 
 <table>

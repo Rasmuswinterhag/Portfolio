@@ -2,7 +2,7 @@
 
 ## [***New Folder***](NewFolder#) ← Click here for more info!
 
-Developed: *November 2024 - Juni 2025*  
+Developed: *November 2024 - June 2025*  
 Engine: Unity   
 Genré: Story, Mystery, Puzzle, Horror   
 Team: 3 Programmers and 4 Artists   
@@ -16,7 +16,7 @@ Team: 3 Programmers and 4 Artists
 ---
 ## [***Anker***](Anker#) ← Click here for more info!
 
-Developed: *Summer 2023, January 2025 - february 2025*  
+Developed: *Summer 2023, January 2025 - February 2025*  
 Engine: Unity   
 Genré: Idle, Mobile   
 Team: Me   

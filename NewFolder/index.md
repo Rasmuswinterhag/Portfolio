@@ -6,7 +6,7 @@
 [Itch Page](https://yrgo-game-creator.itch.io/new-folder)  
 
 Worked as **Programmer**  
-*2024 november - 2025 January*
+*2024 november - 2025 June*
 
 ---
 

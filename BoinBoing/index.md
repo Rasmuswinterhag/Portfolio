@@ -15,10 +15,10 @@ This was part of a 1h game jam that takes place during the daylight savings when
 I made everything
 ### Thinking process when making the game
 1. I started by thinking about the theme: bounce
-2. What bounces? balls. So click to spawn a bouncy ball.
-3. Numbers going up is fun. You get points when the balls bounce
+2. What bounces? balls. So ill make it so that you click to spawn a bouncy ball.
+3. Numbers going up is fun. You get points when the balls bounce.
 4. To gamify it more the balls get destroyed when touching eachother.
-5. I have time, The balls can now take three hits
+5. Then I noticed that I have more time. So I added so that balls can take three hits instead of one, and they also change colour to indicate their health.
 
 ## Screenshots
 
