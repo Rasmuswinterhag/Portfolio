@@ -14,7 +14,7 @@ Worked as **Programmer**
 
 <table>
   <tr>
-    <td ><img src="Images\Mediaplayer.png"/></td>
-     <td ><img src="Images\RightClick.png"/></td>
+    <td><img src="Images\SpinnyPlate.gif" /></td>
+    <td><img src="Images\4PlayerGameplay.gif" /></td>
   </tr>
 </table>
