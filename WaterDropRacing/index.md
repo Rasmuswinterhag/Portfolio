@@ -1,6 +1,6 @@
 ### [Back](..)
 # *Water Drop Racing*
-<td><img src="Images\MainMenu.png" /></td>
+<img src="Images\MainMenu.png" width="100%"/>
 
 [Game Jam Page](https://globalgamejam.org/games/2025/title-5)
 
