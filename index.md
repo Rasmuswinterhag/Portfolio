@@ -1,7 +1,3 @@
-# Rasmus Winterhag Portfolio
-
-This page contains a preview of all my notable projects, click the name of the project to see my contributions!
-
 # Games developed at Yrgo
 
 ## [***New Folder***](NewFolder#) ← Click here for more info!
