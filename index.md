@@ -13,7 +13,7 @@ Team: 3 Programmers and 4 Artists
     <td><img src="NewFolder\Images\RightClick.png" /></td>
   </tr>
 </table>
-
+---
 ## [***Anker***](Anker#) ← Click here for more info!
 
 Developed: *Summer 2023, January 2025 - february 2025*  
@@ -32,7 +32,7 @@ Team: Me
     <td><img src="Anker\Images\VisitOthers.png" /></td>
   </tr>
 </table>
-
+---
 ## [***Regauge***](Regauge#) ← Click here for more info!
 
 Developed: *2025 April - 2025 July* 
@@ -46,7 +46,7 @@ Team: 3 Programmers and 4 Artists
     <td><img src="Regauge\Images\4PlayerGameplay.gif" /></td>
   </tr>
 </table>
-
+---
 ## [***Flappy Window***](FlappyWindow#) ← Click here for more info!
 
 Developed: *2025 August, 18 - 22*     
