@@ -7,6 +7,8 @@
 Worked as **Programmer**    
 *2025 January, 17 - 19*  
 
+---
+
 Won the ***Best Game Design*** award in the [*Global Game Jam Gothenburg*](https://globalgamejam.org/jam-sites/2025/ggj-gothenburg-25) which had the theme *Bubbles*.
 
 I worked on most things but some highlights are:

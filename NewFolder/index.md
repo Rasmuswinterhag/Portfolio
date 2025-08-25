@@ -8,6 +8,8 @@
 Worked as **Programmer**  
 *2024 november - 2025 January*
 
+---
+
 I worked on a little bit of everything but some highlights are: 
 - The mediaplayer - I built almost the whole thing  
 - The Glitch system - Built the whole thing, I built it to be easy to use for the developers

@@ -8,6 +8,8 @@
 Worked as **Programmer**  
 Developed: *2024 october, 02:00 - 02:00 (Made in one hour)* 
 
+---
+
 This was part of a 1h game jam that takes place during the daylight savings when you put back the clock one hour.
 
 I made everything
