@@ -37,6 +37,35 @@ Team: Me
   </tr>
 </table>
 
+## [***Regauge***](Regauge#) ← Click here for more info!
+
+Developed: *2025 April - 2025 July* 
+Engine: Unity   
+Genré: Couch Co-op, Shooter   
+Team: 3 Programmers and 4 Artists   
+
+<table>
+  <tr>
+    <td><img src="Regauge\Images\SpinnyPlate.gif" /></td>
+  </tr>
+  <tr>
+    <td><img src="Regauge\Images\4PlayerGameplay.gif" /></td>
+  </tr>
+</table>
+
+## [***Flappy Window***](FlappyWindow#) ← Click here for more info!
+
+Developed: *2025 August, 18 - 22*     
+Engine: SDL3   
+Genré: Experiment   
+Team: Me  
+
+<table>
+  <tr>
+    <td><img src="FlappyWindow\Images\Gameplay.png" /></td>
+  </tr>
+</table>
+
 ---
 
 # Game Jams
