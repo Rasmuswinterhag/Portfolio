@@ -29,7 +29,7 @@ Solo Project
 
 <table>
   <tr>
-    <td><img src="FlappyWindow\Images\Gameplay.png" /></td>
+    <td><img src="FlappyWindow\Images\Gameplay.gif" /></td>
   </tr>
 </table>
 
