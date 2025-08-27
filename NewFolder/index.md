@@ -16,6 +16,13 @@ I worked on a little bit of everything but some highlights are:
 - Animated images -  I modified the normal Image prefab to add animations when you first open them, but not again after  
 - Pulling keys from images - I modified the image prefab to make you able to pull keys from it
 
+The glitch system was designed so you could easily customize it as a developer.
+<details>
+<summary>The glitch system viewed from unity</summary>
+I wanted to make it so only the relevant values showed up for what you had selected, but unfortunatly i couldnt figure it out when it was in an array. So I settled for this.
+<img src="Images\GlitchHandler.png" width="100%"/>
+</details>
+
 ## Screenshots
 
 <table>

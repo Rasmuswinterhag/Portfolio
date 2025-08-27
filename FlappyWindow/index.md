@@ -6,8 +6,6 @@ Worked as **Programmer**
 
 ---
 
-Flapppy bird but everything with seperate windows.
-
 I wanted to do something like this for a little while, I tried before in monogame but that didnt allow you to have multiple windows moving and running code at the same time. So I gave up after a while.
 
 When we started working in C++ and SDL3 and I saw that you could easily make windows so I thought that maybe I could revive this idea. So I started experimenting by making the bird and spawning windows. When it worked I got exited and continued working. I added sprites, animated the bird, and scoring.

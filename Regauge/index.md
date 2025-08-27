@@ -121,6 +121,52 @@ public struct Screen
 
 It works by having each screen in Unity be connected to a position through the ``Screen`` object which also keeps track of the position and rotation of the camera via GameObjects placed in the scene so you can easily change the cameras positions as a developer. Then just lerping the cameras position and rotation towards the ``target``.
 
+Another thing I am proud of where how the bloodsplatter worked, unfotunatly we had to scrap it since we changed how we built maps after I made it.
+<details>
+<summary>RotateDecalToNormals.cs (excerpt)</summary>
+
+```csharp
+[RequireComponent(typeof(DecalProjector))]
+public class RotateDecalToNormals : MonoBehaviour
+{
+    public void Start()
+    {
+        transform.forward = -GetAverageNormalInSphere(size / 2);
+    }
+
+    Vector3 GetAverageNormalInSphere(float radius)
+    {
+        List<Vector3> hitNormals = new();
+        foreach (var item in Physics.OverlapSphere(transform.position, radius, layerMask))
+        {
+            Vector3 directionToItem = item.ClosestPoint(transform.position) - transform.position;
+            RaycastHit hit;
+            if (Physics.Raycast(new Ray(transform.position, directionToItem), out hit, Vector3.Distance(transform.position, item.transform.position), layerMask))
+            {
+                MeshRenderer meshRenderer = hit.collider.gameObject.GetComponent<MeshRenderer>();
+                if (!meshRenderer || (meshRenderer.renderingLayerMask & decal.renderingLayerMask) == 0) { continue; } //if light layers doesnt include Recive decals skip
+                hitNormals.Add(hit.normal);
+                Debug.DrawLine(hit.point, hit.point + (hit.normal * 1), Color.red, 10);
+            }
+
+        }
+        if (hitNormals.Count == 0) { Debug.LogWarning("Nothing hit, returning up", this); return Vector3.up; }
+
+        Vector3 averageNormal = Vector3.zero;
+        foreach (var item in hitNormals)
+        {
+            averageNormal += item;
+        }
+
+        averageNormal /= hitNormals.Count;
+
+        Debug.DrawLine(transform.position, transform.position + (averageNormal * 3), Color.yellow, 10);
+        return averageNormal;
+    }
+}
+```
+</details>
+
 ## Screenshots
 
 <table>
