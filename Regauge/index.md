@@ -109,14 +109,6 @@ public struct Screen
         target = cameraAngle;
     }
 
-    public void SetCameraTo(TwoTransforms cameraAngle)
-    {
-        ChangeCameraTo(cameraAngle);
-
-        transform.position = target.from.position;
-        transform.rotation = Quaternion.Euler(target.Direction());
-    }
-
     void Update()
     {
         if (target.from == null || target.to == null) { return; }
