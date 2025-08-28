@@ -20,89 +20,89 @@ Something im proud of accomplishing is how the main menu is handled. It has diff
 <details>
 <summary>Structs.cs</summary>
 
-<code>
+<pre><pre><code>
 
-[Serializable]  <br>
-public struct TwoTransforms  <br>
-{  <br>
-    public Transform from;  <br>
-    public Transform to;  <br>
+[Serializable]
+public struct TwoTransforms
+{
+    public Transform from;
+    public Transform to;
 
-    public Vector3 Direction()  <br>
-    {  <br>
-        return to.position - from.position;  <br>
-    }  <br>
-}  <br>
+    public Vector3 Direction()
+    {
+        return to.position - from.position;
+    }
+}
 
-[Serializable]  <br>
-public struct Screen  <br>
-{  <br>
-    public GameObject gameObject;  <br>
-    public TwoTransforms cameraAngle;  <br>
-    public GameObject firstSelectedUIElement;  <br>
+[Serializable]
+public struct Screen
+{
+    public GameObject gameObject;
+    public TwoTransforms cameraAngle;
+    public GameObject firstSelectedUIElement;
 
-    public void SetActive(bool value)  <br>
-    {  <br>
-        gameObject.SetActive(value);  <br>
-    }  <br>
-}  <br>
+    public void SetActive(bool value)
+    {
+        gameObject.SetActive(value);
+    }
+}
 
-</code>
+</pre></code>
 
 </details>
 
 <details>
 <summary>MainMenuCamera.cs (excerpt)</summary>
 
-<code>
+<pre><code>
 
-    void Start() <br>
+    void Start()
     {
-        poseCamera = Camera.main.GetComponent<PoseCamera>(); <br>
-        eventSystem = FindObjectOfType<EventSystem>(); <br>
+        poseCamera = Camera.main.GetComponent<PoseCamera>();
+        eventSystem = FindObjectOfType<EventSystem>();
 
-        foreach (Screen screen in screens) <br>
+        foreach (Screen screen in screens)
         {
-            screensDictionary.Add(screen.gameObject, screen); <br>
+            screensDictionary.Add(screen.gameObject, screen);
         }
 
-        Show(startScreen); <br>
+        Show(startScreen);
     }
 
-    public void Show(GameObject keyToGoTo) <br>
+    public void Show(GameObject keyToGoTo)
     {
-        lastScreen = CurrenScreen().gameObject; <br>
-        foreach (var dictionary in screensDictionary) <br>
+        lastScreen = CurrenScreen().gameObject;
+        foreach (var dictionary in screensDictionary)
         {
-            dictionary.Value.SetActive(false); <br>
+            dictionary.Value.SetActive(false);
         }
 
-        Screen objectToActivate = screensDictionary[keyToGoTo]; <br>
+        Screen objectToActivate = screensDictionary[keyToGoTo];
 
-        objectToActivate.SetActive(true); <br>
-        poseCamera.ChangeCameraTo(objectToActivate.cameraAngle); <br>
-        eventSystem.SetSelectedGameObject(objectToActivate.firstSelectedUIElement); <br>
+        objectToActivate.SetActive(true);
+        poseCamera.ChangeCameraTo(objectToActivate.cameraAngle);
+        eventSystem.SetSelectedGameObject(objectToActivate.firstSelectedUIElement);
     }
 
-    Screen CurrenScreen() <br>
+    Screen CurrenScreen()
     {
-        Screen activeScreen = new(); <br>
-        foreach (Screen screen in screensDictionary.Values) <br>
+        Screen activeScreen = new();
+        foreach (Screen screen in screensDictionary.Values)
         {
-            if (screen.gameObject.activeSelf) { activeScreen = screen; break; } <br>
+            if (screen.gameObject.activeSelf) { activeScreen = screen; break; }
         }
 
-        return activeScreen; <br>
-    } <br>
+        return activeScreen;
+    }
 
-</code>
+</pre></code>
 
 </details>
 
 <details>
 <summary>PoseCamera.cs</summary>
 
-<code>
+<pre><code>
 
     [SerializeField] float moveSpeed = 5;
     [SerializeField] float rotationSpeed = 5;
@@ -123,7 +123,7 @@ public struct Screen  <br>
 
 </details>
 
-</code>
+</pre></code>
 
 It works by having each screen in Unity be connected to a position through the ``Screen`` object which also keeps track of the position and rotation of the camera via GameObjects placed in the scene so you can easily change the cameras positions as a developer. Then just lerping the cameras position and rotation towards the ``target``.
 
@@ -132,7 +132,7 @@ Another thing I am proud of where how the bloodsplatter worked, unfotunatly we h
 <details>
 <summary>RotateDecalToNormals.cs (excerpt)</summary>
 
-<code>
+<pre><code>
 
 [RequireComponent(typeof(DecalProjector))]
 public class RotateDecalToNormals : MonoBehaviour
@@ -175,7 +175,7 @@ public class RotateDecalToNormals : MonoBehaviour
 
 </details>
 
-</code>
+</pre></code>
 
 ## Screenshots
 
