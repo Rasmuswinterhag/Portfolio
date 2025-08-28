@@ -21,6 +21,7 @@ Something im proud of accomplishing is how the main menu is handled. It has diff
 <summary>Structs.cs</summary>
 
 ```csharp
+
 [Serializable]
 public struct TwoTransforms
 {
@@ -45,13 +46,16 @@ public struct Screen
         gameObject.SetActive(value);
     }
 }
+
 ```
+
 </details>
 
 <details>
 <summary>MainMenuCamera.cs (excerpt)</summary>
 
 ```csharp
+
     void Start()
     {
         poseCamera = Camera.main.GetComponent<PoseCamera>();
@@ -92,6 +96,7 @@ public struct Screen
     }
 
 ```
+
 </details>
 
 <details>
@@ -117,6 +122,7 @@ public struct Screen
     }
 
 ```
+
 </details>
 
 It works by having each screen in Unity be connected to a position through the ``Screen`` object which also keeps track of the position and rotation of the camera via GameObjects placed in the scene so you can easily change the cameras positions as a developer. Then just lerping the cameras position and rotation towards the ``target``.
@@ -127,6 +133,7 @@ Another thing I am proud of where how the bloodsplatter worked, unfotunatly we h
 <summary>RotateDecalToNormals.cs (excerpt)</summary>
 
 ```csharp
+
 [RequireComponent(typeof(DecalProjector))]
 public class RotateDecalToNormals : MonoBehaviour
 {
@@ -165,6 +172,7 @@ public class RotateDecalToNormals : MonoBehaviour
         return averageNormal;
     }
 }
+
 ```
 
 </details>
