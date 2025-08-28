@@ -20,7 +20,7 @@ Something im proud of accomplishing is how the main menu is handled. It has diff
 <details>
 <summary>Structs.cs</summary>
 
-```csharp
+<code>
 
 [Serializable]
 public struct TwoTransforms
@@ -47,14 +47,14 @@ public struct Screen
     }
 }
 
-```
+</code>
 
 </details>
 
 <details>
 <summary>MainMenuCamera.cs (excerpt)</summary>
 
-```csharp
+<code>
 
     void Start()
     {
@@ -95,14 +95,14 @@ public struct Screen
         return activeScreen;
     }
 
-```
+</code>
 
 </details>
 
 <details>
 <summary>PoseCamera.cs</summary>
 
-```csharp
+<code>
 
     [SerializeField] float moveSpeed = 5;
     [SerializeField] float rotationSpeed = 5;
@@ -121,7 +121,7 @@ public struct Screen
         transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(target.Direction()), Time.deltaTime * rotationSpeed);
     }
 
-```
+</code>
 
 </details>
 
@@ -132,7 +132,7 @@ Another thing I am proud of where how the bloodsplatter worked, unfotunatly we h
 <details>
 <summary>RotateDecalToNormals.cs (excerpt)</summary>
 
-```csharp
+<code>
 
 [RequireComponent(typeof(DecalProjector))]
 public class RotateDecalToNormals : MonoBehaviour
@@ -173,7 +173,7 @@ public class RotateDecalToNormals : MonoBehaviour
     }
 }
 
-```
+</code>
 
 </details>
 
