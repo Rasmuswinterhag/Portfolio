@@ -166,6 +166,7 @@ public class RotateDecalToNormals : MonoBehaviour
     }
 }
 ```
+
 </details>
 
 ## Screenshots
