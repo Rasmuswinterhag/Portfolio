@@ -121,9 +121,9 @@ public struct Screen
         transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(target.Direction()), Time.deltaTime * rotationSpeed);
     }
 
-</code>
-
 </details>
+
+</code>
 
 It works by having each screen in Unity be connected to a position through the ``Screen`` object which also keeps track of the position and rotation of the camera via GameObjects placed in the scene so you can easily change the cameras positions as a developer. Then just lerping the cameras position and rotation towards the ``target``.
 
@@ -173,9 +173,9 @@ public class RotateDecalToNormals : MonoBehaviour
     }
 }
 
-</code>
-
 </details>
+
+</code>
 
 ## Screenshots
 
