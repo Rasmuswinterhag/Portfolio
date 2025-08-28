@@ -56,44 +56,44 @@ public struct Screen
 
 <code>
 
-    void Start()
+    void Start() <br>
     {
-        poseCamera = Camera.main.GetComponent<PoseCamera>();
-        eventSystem = FindObjectOfType<EventSystem>();
+        poseCamera = Camera.main.GetComponent<PoseCamera>(); <br>
+        eventSystem = FindObjectOfType<EventSystem>(); <br>
 
-        foreach (Screen screen in screens)
+        foreach (Screen screen in screens) <br>
         {
-            screensDictionary.Add(screen.gameObject, screen);
+            screensDictionary.Add(screen.gameObject, screen); <br>
         }
 
-        Show(startScreen);
+        Show(startScreen); <br>
     }
 
-    public void Show(GameObject keyToGoTo)
+    public void Show(GameObject keyToGoTo) <br>
     {
-        lastScreen = CurrenScreen().gameObject;
-        foreach (var dictionary in screensDictionary)
+        lastScreen = CurrenScreen().gameObject; <br>
+        foreach (var dictionary in screensDictionary) <br>
         {
-            dictionary.Value.SetActive(false);
+            dictionary.Value.SetActive(false); <br>
         }
 
-        Screen objectToActivate = screensDictionary[keyToGoTo];
+        Screen objectToActivate = screensDictionary[keyToGoTo]; <br>
 
-        objectToActivate.SetActive(true);
-        poseCamera.ChangeCameraTo(objectToActivate.cameraAngle);
-        eventSystem.SetSelectedGameObject(objectToActivate.firstSelectedUIElement);
+        objectToActivate.SetActive(true); <br>
+        poseCamera.ChangeCameraTo(objectToActivate.cameraAngle); <br>
+        eventSystem.SetSelectedGameObject(objectToActivate.firstSelectedUIElement); <br>
     }
 
-    Screen CurrenScreen()
+    Screen CurrenScreen() <br>
     {
-        Screen activeScreen = new();
-        foreach (Screen screen in screensDictionary.Values)
+        Screen activeScreen = new(); <br>
+        foreach (Screen screen in screensDictionary.Values) <br>
         {
-            if (screen.gameObject.activeSelf) { activeScreen = screen; break; }
+            if (screen.gameObject.activeSelf) { activeScreen = screen; break; } <br>
         }
 
-        return activeScreen;
-    }
+        return activeScreen; <br>
+    } <br>
 
 </code>
 
