@@ -122,6 +122,7 @@ public struct Screen
 It works by having each screen in Unity be connected to a position through the ``Screen`` object which also keeps track of the position and rotation of the camera via GameObjects placed in the scene so you can easily change the cameras positions as a developer. Then just lerping the cameras position and rotation towards the ``target``.
 
 Another thing I am proud of where how the bloodsplatter worked, unfotunatly we had to scrap it since we changed how we built maps after I made it.
+
 <details>
 <summary>RotateDecalToNormals.cs (excerpt)</summary>
 
