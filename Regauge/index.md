@@ -22,30 +22,30 @@ Something im proud of accomplishing is how the main menu is handled. It has diff
 
 <code>
 
-[Serializable]
-public struct TwoTransforms
-{
-    public Transform from;
-    public Transform to;
+[Serializable]  <br>
+public struct TwoTransforms  <br>
+{  <br>
+    public Transform from;  <br>
+    public Transform to;  <br>
 
-    public Vector3 Direction()
-    {
-        return to.position - from.position;
-    }
-}
+    public Vector3 Direction()  <br>
+    {  <br>
+        return to.position - from.position;  <br>
+    }  <br>
+}  <br>
 
-[Serializable]
-public struct Screen
-{
-    public GameObject gameObject;
-    public TwoTransforms cameraAngle;
-    public GameObject firstSelectedUIElement;
+[Serializable]  <br>
+public struct Screen  <br>
+{  <br>
+    public GameObject gameObject;  <br>
+    public TwoTransforms cameraAngle;  <br>
+    public GameObject firstSelectedUIElement;  <br>
 
-    public void SetActive(bool value)
-    {
-        gameObject.SetActive(value);
-    }
-}
+    public void SetActive(bool value)  <br>
+    {  <br>
+        gameObject.SetActive(value);  <br>
+    }  <br>
+}  <br>
 
 </code>
 
