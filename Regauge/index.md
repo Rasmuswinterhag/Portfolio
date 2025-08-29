@@ -19,8 +19,8 @@ Something im proud of accomplishing is how the main menu is handled. It has diff
 
 <details>
 <summary>Structs.cs</summary>
-
-<pre><code>
+<pre>
+<code>
 
 [Serializable]
 public struct TwoTransforms
@@ -47,14 +47,14 @@ public struct Screen
     }
 }
 
-</pre></code>
-
+</pre>
+</code>
 </details>
 
 <details>
 <summary>MainMenuCamera.cs (excerpt)</summary>
-
-<pre><code>
+<pre>
+<code>
 
     void Start()
     {
@@ -95,14 +95,15 @@ public struct Screen
         return activeScreen;
     }
 
-</pre></code>
+</pre>
+</code>
 
 </details>
 
 <details>
 <summary>PoseCamera.cs</summary>
-
-<pre><code>
+<pre>
+<code>
 
     [SerializeField] float moveSpeed = 5;
     [SerializeField] float rotationSpeed = 5;
@@ -121,8 +122,8 @@ public struct Screen
         transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(target.Direction()), Time.deltaTime * rotationSpeed);
     }
 
-</pre></code>
-
+</pre>
+</code>
 </details>
 
 It works by having each screen in Unity be connected to a position through the ``Screen`` object which also keeps track of the position and rotation of the camera via GameObjects placed in the scene so you can easily change the cameras positions as a developer. Then just lerping the cameras position and rotation towards the ``target``.
@@ -131,8 +132,8 @@ Another thing I am proud of where how the bloodsplatter worked, unfotunatly we h
 
 <details>
 <summary>RotateDecalToNormals.cs (excerpt)</summary>
-
-<pre><code>
+<pre>
+<code>
 
 [RequireComponent(typeof(DecalProjector))]
 public class RotateDecalToNormals : MonoBehaviour
@@ -173,8 +174,8 @@ public class RotateDecalToNormals : MonoBehaviour
     }
 }
 
-</pre></code>
-
+</pre>
+</code>
 </details>
 
 ## Screenshots
