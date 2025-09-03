@@ -1,3 +1,6 @@
+<head>
+  <title>NewFolder</title>
+</head>
 ### [Back](..)
 # *New Folder*
 

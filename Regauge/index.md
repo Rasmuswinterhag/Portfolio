@@ -1,3 +1,6 @@
+<head>
+  <title>Regauge</title>
+</head>
 ### [Back](..)
 # *Regauge*
 

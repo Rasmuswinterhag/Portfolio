@@ -1,3 +1,6 @@
+<head>
+  <title>Boin Boing</title>
+</head>
 ### [Back](..)
 # *Boin Boing*
 

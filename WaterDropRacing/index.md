@@ -1,3 +1,6 @@
+<head>
+  <title>Water Drop Racing</title>
+</head>
 ### [Back](..)
 # *Water Drop Racing*
 <img src="Images\MainMenu.png" width="100%"/>
