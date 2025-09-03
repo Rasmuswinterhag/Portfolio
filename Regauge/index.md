@@ -58,8 +58,8 @@ public struct Screen
 
     void Start()
     {
-        poseCamera = Camera.main.GetComponent<PoseCamera>();
-        eventSystem = FindObjectOfType<EventSystem>();
+        poseCamera = Camera.main.GetComponent\<PoseCamera>();
+        eventSystem = FindObjectOfType\<EventSystem>();
 
         foreach (Screen screen in screens)
         {
@@ -144,14 +144,14 @@ public class RotateDecalToNormals : MonoBehaviour
 
     Vector3 GetAverageNormalInSphere(float radius)
     {
-        List<Vector3> hitNormals = new();
+        List\<Vector3> hitNormals = new();
         foreach (var item in Physics.OverlapSphere(transform.position, radius, layerMask))
         {
             Vector3 directionToItem = item.ClosestPoint(transform.position) - transform.position;
             RaycastHit hit;
             if (Physics.Raycast(new Ray(transform.position, directionToItem), out hit, Vector3.Distance(transform.position, item.transform.position), layerMask))
             {
-                MeshRenderer meshRenderer = hit.collider.gameObject.GetComponent<MeshRenderer>();
+                MeshRenderer meshRenderer = hit.collider.gameObject.GetComponent\<MeshRenderer>();
                 if (!meshRenderer || (meshRenderer.renderingLayerMask & decal.renderingLayerMask) == 0) { continue; } //if light layers doesnt include Recive decals skip
                 hitNormals.Add(hit.normal);
                 Debug.DrawLine(hit.point, hit.point + (hit.normal * 1), Color.red, 10);
