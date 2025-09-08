@@ -7,6 +7,7 @@
 
 Worked as sole developer    
 *Summer 2023, January 2025 - february 2025*
+Language: c#    
 
 ---
 

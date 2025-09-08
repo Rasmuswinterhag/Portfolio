@@ -23,6 +23,8 @@ I made everything
 4. To gamify it more the balls get destroyed when touching eachother.
 5. Then I noticed that I have more time. So I added so that balls can take three hits instead of one, and they also change colour to indicate their health.
 
+I will not show any code from this project unlike all the other projects shown off here since this was very rushed and the code does not show off my ability as a programmer.
+
 ## Screenshots
 
 <table>

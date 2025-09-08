@@ -8,6 +8,7 @@ I worked on a bit here and there but the main things I made were a glitch system
 
 Developed: *November 2024 - June 2025*  
 Engine: Unity   
+Language: c#    
 Genré: Story, Mystery, Puzzle, Horror   
 Team: 3 Programmers and 4 Artists   
 
@@ -24,6 +25,7 @@ Flapppy window is a solo project that I worked on as an experiment to see if I c
 
 Developed: *2025 August, 18 - 22*     
 Engine: SDL3   
+Language: c++    
 Genré: Experiment   
 Solo Project  
 
@@ -42,6 +44,7 @@ My main contributions to this game were the Main menu and its camera system, and
 
 Developed: *2025 April - 2025 July*   
 Engine: Unity   
+Language: c#    
 Genré: Couch Co-op, Shooter   
 Team: 3 Programmers and 4 Artists   
 
@@ -58,6 +61,7 @@ Anker is a Solo project that is inpired from *[Placid Plastic Duck Simulator](ht
 
 Developed: *Summer 2023, January 2025 - February 2025*  
 Engine: Unity   
+Language: c#    
 Genré: Idle, Mobile   
 Solo Project   
 
@@ -82,6 +86,7 @@ A Solo project made in one hour for the Zero Hour Game Jam 2024. The theme was b
 
 Developed: *October 2024, 02:00 - 02:00 (Made in one hour)*     
 Engine: Unity   
+Language: c#    
 Genré: Physics simulator, Clicker   
 Solo Project    
 
@@ -100,8 +105,10 @@ My main contributin was the camera movement.
 
 Developed: *January 2025, 17th - 19th*  
 Engine: Unity   
+Language: c#    
 Genré: Nostalgic Racing Game  
 Team: 3 Programmers and 3 Artists
+
 
 <table>
   <tr>
