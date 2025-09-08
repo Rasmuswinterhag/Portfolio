@@ -21,7 +21,7 @@ I started working on this the summer of 2023 since I wanted *[Placid Plastic Duc
 
   This is the BlackHole duck which starts spinning faster and faster until it starts sucking in other ducks until something slows it down.
   <details>
-  <summary>Black Hole Duck</summary>
+  <summary>Black Hole Duck Code</summary>
   <pre>
   <code>
   public class BlackHole : MonoBehaviour
@@ -85,7 +85,7 @@ I started working on this the summer of 2023 since I wanted *[Placid Plastic Duc
   
   This is the rocket duck that propells itself forward until it has reached <code>rocketSpeed</code> then stops for a little bit before starting up again.
   <details>
-  <summary>Rocket Duck</summary>
+  <summary>Rocket Duck Code</summary>
   <pre>
   <code>
 public class RocketDuck : MonoBehaviour
