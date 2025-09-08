@@ -117,6 +117,6 @@ Bird::Bird(Game* game)
 
 <table>
   <tr>
-    <td><img src="Images\Gameplay.png" /></td>
+    <td><img src="Images\Gameplay.gif" /></td>
   </tr>
 </table>
