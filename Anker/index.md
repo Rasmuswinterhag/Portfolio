@@ -36,10 +36,10 @@ I started working on this the summer of 2023 since I wanted *[Placid Plastic Duc
 
       void Start()
       {
-          rb2d = GetComponent<Rigidbody2D>();
-          pEffector = GetComponent<PointEffector2D>();
-          pEffectorTrigger = GetComponent<CircleCollider2D>();
-          particleSys = GetComponent<ParticleSystem>();
+          rb2d = GetComponent&lt;Rigidbody2D&lt;();
+          pEffector = GetComponent&lt;PointEffector2D&lt;();
+          pEffectorTrigger = GetComponent&lt;CircleCollider2D&lt;();
+          particleSys = GetComponent&lt;ParticleSystem&lt;();
   
           InvokeRepeating(nameof(StartSuck), 0, suckRepeatTime);
       }
@@ -51,14 +51,14 @@ I started working on this the summer of 2023 since I wanted *[Placid Plastic Duc
   
       IEnumerator Suck()
       {
-          while (rb2d.angularVelocity < minSuckSpeed)
+          while (rb2d.angularVelocity &lt; minSuckSpeed)
           {
               rb2d.AddTorque(spinTrorque, ForceMode2D.Force);
               yield return new WaitForSeconds(0.1f);
           }
           SuckParticlesEnabled(true);
           yield return new WaitForSeconds(1f);
-          while (rb2d.angularVelocity > minSuckSpeed / 3)
+          while (rb2d.angularVelocity &lt; minSuckSpeed / 3)
           {
               yield return new WaitForSeconds(0.1f);
           }
@@ -103,10 +103,10 @@ public class RocketDuck : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        pSystem = GetComponent<ParticleSystem>();
-        audioSource = GetComponent<AudioSource>();
+        rb = GetComponent&lt;Rigidbody2D&lt;();
+        anim = GetComponent&lt;Animator&lt;();
+        pSystem = GetComponent&lt;ParticleSystem&lt;();
+        audioSource = GetComponent&lt;AudioSource&lt;();
         timer = rocketCooldown;
     }
 
@@ -115,9 +115,9 @@ public class RocketDuck : MonoBehaviour
         timer = timer + Time.fixedDeltaTime;
 
         speed = rb.velocity.magnitude;
-        if (timer > rocketCooldown)
+        if (timer &lt; rocketCooldown)
         {
-            if (speed < rocketSpeed)
+            if (speed &lt; rocketSpeed)
             {
                 rb.AddForce(transform.up * rocketPower);
                 audioSource.pitch = Random.Range(0.9f, 1.1f);
@@ -153,7 +153,6 @@ public class RocketDuck : MonoBehaviour
   </code>
   </pre>
   </details>
-</details>
 </details>
 
 I also added some additional ducks and I reworked the system for how you get ducks so that instead of only getting every duck once and then not being able to get them again. Now when you have every duck you can start to get duplicates so you can have 2 of each, then 3 of each, etc. etc.
