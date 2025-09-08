@@ -154,7 +154,7 @@ public class RocketDuck : MonoBehaviour
   </pre>
   </details>
 </details>
-
+</details>
 
 I also added some additional ducks and I reworked the system for how you get ducks so that instead of only getting every duck once and then not being able to get them again. Now when you have every duck you can start to get duplicates so you can have 2 of each, then 3 of each, etc. etc.
 
