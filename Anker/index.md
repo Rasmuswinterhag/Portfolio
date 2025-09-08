@@ -17,9 +17,9 @@ I started working on this the summer of 2023 since I wanted *[Placid Plastic Duc
 - Diffrent types of ducks with diffrent behavoir.
 
 <details>
-<summary>Diffrent Duck types</summary>
+<summary>Examples of diffrent duck types</summary>
 
-  This is the BlackHole duck which starts spinning faster and faster until it starts sucking in other ducks until something slows it down.
+  The BlackHole duck which starts spinning faster and faster until it starts sucking in other ducks until something slows it down.
   <details>
   <summary>Black Hole Duck Code</summary>
   <pre>
@@ -83,7 +83,7 @@ I started working on this the summer of 2023 since I wanted *[Placid Plastic Duc
   </pre>
   </details>
   
-  This is the rocket duck that propells itself forward until it has reached <code>rocketSpeed</code> then stops for a little bit before starting up again.
+  The rocket duck that propells itself forward until it has reached <code>rocketSpeed</code> then stops for a little bit before starting up again.
   <details>
   <summary>Rocket Duck Code</summary>
   <pre>

@@ -1,5 +1,11 @@
 # ---> Look at the raw file <---
 
+# TitleSize 1
+## TitleSize 2
+### TitleSize 3
+#### TitleSize 4
+##### TitleSize 5
+
 At the top for page titles.     
 <head>
   <title>HelpFile</title>
@@ -15,12 +21,10 @@ Hyperlink
 <summary>Dropdown Menu</summary>
 <pre>
 <code>
-
 void ExampleFunction
 {
     //Do stuff
 }
-
 </code>
 </pre>
 </details>
