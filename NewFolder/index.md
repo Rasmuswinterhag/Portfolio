@@ -11,7 +11,7 @@
 Worked as **Programmer**  
 *2024 november - 2025 June*   
 Language: c#    
-Nominated to [Swedish Game Awards 2025](https://www.swedishgameawards.se/kopia-på-nominees-2024)
+Nominated to [Swedish Game Awards 2025](https://www.swedishgameawards.se/nominees-2025) for "best outside of the box"
 
 ---
 
